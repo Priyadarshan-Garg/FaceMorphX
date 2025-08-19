@@ -135,7 +135,7 @@ while True:
     cv2.putText(frame, f'FPS: {int(fps)}', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
     # Sticker on face
-    cv2.imshow("Face Replacement Filter", frame)
+    cv2.imshow("Face Replacement Filter", cv2.flip(frame,1))
 
     # This is for to Quit my Video Stream
     if cv2.waitKey(1) & 0xFF == ord('q'):

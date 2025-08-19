@@ -24,7 +24,7 @@ if not src_Faces :
 src_face = src_Faces[0]
 
 # opening the webcam
-cap = cv2.VideoCapture(1)  # again, it's up to you what you choose take as input source I'll take external input.
+cap = cv2.VideoCapture(0)  # again, it's up to you what you choose take as input source I'll take external input.
 while cap.isOpened():
     ret, frame = cap.read()
     if ret is None:
