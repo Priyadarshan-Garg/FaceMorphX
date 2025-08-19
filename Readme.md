@@ -2,7 +2,10 @@
 
 ## Description
 
-This project performs real-time face swapping on a webcam feed and allows you to overlay stickers on detected faces, accelerated by GPU processing.
+- This project performs real-time face swapping on a webcam feed and allows you to overlay stickers on detected faces, accelerated by GPU processing.
+- **Demo** :
+    - [FaceFusion](demo/FaceSwap.mp4)
+    - [FaceFx](demo/FaceSticker.mp4)
 
 ## Features
 
